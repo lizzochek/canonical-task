@@ -1,0 +1,40 @@
+@import 'vanilla-framework/scss/vanilla';
+@include vanilla;
+
+h1 {
+  text-align: center;
+  margin: 1rem;
+}
+
+#error {
+  text-align: center;
+}
+
+.header {
+  text-transform: uppercase;
+  height: 60px;
+  border-bottom: 1px dotted #d9d9d9;
+}
+
+.footer {
+  text-transform: capitalize;
+}
+
+.card {
+  margin-top: 1rem;
+  border-top: 5px solid #a87c9d;
+}
+
+.media {
+  padding-top: 1rem;
+}
+
+.post-date {
+  font-style: italic;
+  border-bottom: 1px dotted #d9d9d9;
+  padding-bottom: 10px;
+}
+
+.title {
+  height: 6rem;
+}
